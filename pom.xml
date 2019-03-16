@@ -13,9 +13,9 @@
 	<properties>
 		<app.main.class>br.com.avfinal.StartAvFinal</app.main.class>
 		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
-		
+
 		<junit.version>4.11</junit.version>
-		<spring.version>4.0.3.RELEASE</spring.version>
+		<spring.version>[4.3.17,)</spring.version>
 		<hibernate.version>4.3.5.Final</hibernate.version>
 		<hibernate.validador.version>5.1.1.Final</hibernate.validador.version>
 		<hsqldb.version>2.3.2</hsqldb.version>
@@ -115,19 +115,19 @@
 			<artifactId>persistence-api</artifactId>
 			<version>${javax.persistence.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.glassfish.web</groupId>
 			<artifactId>el-impl</artifactId>
 			<version>2.2.1-b05</version>
 		</dependency>
-		
+
 		<dependency>
 		   <groupId>javax.el</groupId>
 		   <artifactId>javax.el-api</artifactId>
 		   <version>2.2.4</version>
 		</dependency>
-		
+
 <!-- 		<dependency> -->
 <!-- 		   <groupId>org.glassfish.web</groupId> -->
 <!-- 		   <artifactId>javax.el</artifactId> -->
