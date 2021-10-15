@@ -14,7 +14,7 @@
 		<app.main.class>br.com.avfinal.StartAvFinal</app.main.class>
 		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
 
-		<junit.version>4.11</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<spring.version>[4.3.17,)</spring.version>
 		<hibernate.version>4.3.5.Final</hibernate.version>
 		<hibernate.validador.version>5.1.1.Final</hibernate.validador.version>
