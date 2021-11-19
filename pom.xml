@@ -14,7 +14,7 @@
 		<app.main.class>br.com.avfinal.StartAvFinal</app.main.class>
 		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
 
-		<junit.version>4.11</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<spring.version>4.3.17.RELEASE</spring.version>
 		<hibernate.version>4.3.5.Final</hibernate.version>
 		<hibernate.validador.version>5.1.1.Final</hibernate.validador.version>
@@ -157,10 +157,9 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<source>1.7</source>
+					<target>1.7</target>
 				</configuration>
 			</plugin>
 			<plugin>
